@@ -1,0 +1,11 @@
+[package]
+name = "messagebox-x11"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+minifb = { version = "0.23", features = ["x11"], default-features = false }
+fontdue = "0.7.2"
+raqote = { version = "0.8.1", default-features = false }
